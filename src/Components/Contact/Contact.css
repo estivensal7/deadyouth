@@ -35,3 +35,30 @@
         width: 40px;
         text-shadow: 2px 2px 4px #000000;
 }
+
+@media (max-width: 575px) {
+        .contact-container {
+                height: 670px;
+        }
+}
+
+@media (max-width: 690px) {
+        .contact-h1 {
+                color: black;
+                font-size: 50px;
+        }
+        
+        .contact-p {
+                color: black;
+                font-size: 20px;
+        }
+}
+
+@media (min-width: 768px) and (max-width: 1089px) {
+        .contact-container {
+                height: 670px;
+        }
+}
+
+
+

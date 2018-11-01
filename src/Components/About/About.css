@@ -10,3 +10,198 @@
 .lead {
         color: black;
 }
+
+@media (max-width: 319px) {
+        .About {
+                height: 300px;
+                width: 100%;
+        }
+
+        .about-title {
+                font-size: 50px !important
+        }
+
+        .lead {
+                font-size: 14px !important;
+        }
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+        .about-title {
+                font-size: 50px !important
+        }
+
+        .lead {
+                font-size: 14px !important;
+        }
+}
+
+@media (min-width: 401px) and (max-width: 480px) {
+        .about-title {
+                font-size: 50px !important
+        }
+
+        .lead {
+                font-size: 16px !important;
+        }
+}
+
+@media (min-width: 481px) and (max-width: 510px) {
+        .about-title {
+                font-size: 60px !important
+        }
+
+        .lead {
+                font-size: 18px !important;
+        }
+}
+
+@media (min-width: 511px) and (max-width: 590px) {
+        .about-title {
+                font-size: 60px !important
+        }
+
+        .lead {
+                font-size: 18px !important;
+        }
+}
+
+@media (min-width: 591px) and (max-width: 6400px) {
+        .about-title {
+                font-size: 60px !important
+        }
+
+        .lead {
+                font-size: 18px !important;
+        }
+}
+
+@media (min-width: 641px) and (max-width: 680px) {
+        .about-title {
+                font-size: 70px !important
+        }
+
+        .lead {
+                font-size: 18px !important;
+        }
+}
+
+@media (min-width: 681px) and (max-width: 740px) {
+        .about-title {
+                font-size: 70px !important
+        }
+
+        .lead {
+                font-size: 18px !important;
+        }
+}
+
+@media (min-width: 741px) and (max-width: 840px) {
+        .about-title {
+                font-size: 70px !important
+        }
+
+        .lead {
+                font-size: 21px !important;
+        }
+}
+
+@media (min-width: 841px) and (max-width: 940px) {
+        .about-title {
+                font-size: 70px !important
+        }
+
+        .lead {
+                font-size: 23px !important;
+        }
+}
+
+@media (min-width: 941px) and (max-width: 1030px) {
+        .about-title {
+                font-size: 70px !important
+        }
+
+        .lead {
+                font-size: 23px !important;
+        }
+}
+
+@media (min-width: 1031px) and (max-width: 1160px) {
+        .about-title {
+                font-size: 90px !important
+        }
+
+        .lead {
+                font-size: 23px !important;
+        }
+}
+
+@media (min-width: 1161px) and (max-width: 1250px) {
+        .about-title {
+                font-size: 80px !important
+        }
+
+        .lead {
+                font-size: 25px !important;
+        }
+}
+
+@media (min-width: 1251px) and (max-width: 1340px) {
+        .about-title {
+                font-size: 80px !important
+        }
+
+        .lead {
+                font-size: 26px !important;
+        }
+}
+
+@media (min-width: 1341px) and (max-width: 1490px) {
+        .about-title {
+                font-size: 80px !important
+        }
+
+        .lead {
+                font-size: 27px !important;
+        }
+}
+
+@media (min-width: 1491px) and (max-width: 1650px) {
+        .about-title {
+                font-size: 90px !important
+        }
+
+        .lead {
+                font-size: 28px !important;
+        }
+}
+
+@media (min-width: 1651px) and (max-width: 1880px) {
+        .about-title {
+                font-size: 90px !important
+        }
+
+        .lead {
+                font-size: 28px !important;
+        }
+}
+
+@media (min-width: 1881px) and (max-width: 2000px) {
+        .about-title {
+                font-size: 90px !important
+        }
+
+        .lead {
+                font-size: 30px !important;
+        }
+}
+
+@media (min-width: 2001px) {
+        .about-title {
+                font-size: 90px !important
+        }
+
+        .lead {
+                font-size: 32px !important;
+        }
+}

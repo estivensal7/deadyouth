@@ -12,8 +12,8 @@ class About extends Component {
 			<div className="About">
                                 <Jumbotron fluid className="about-us-jumbo">
                                         <Container fluid>
-                                                <h1 className="display-3">About Us</h1>
-                                                <p className="lead">
+                                                <h1 className="display-3 about-title">About Us</h1>
+                                                <p className="lead" id="aboutInfo">
                                                         DE∀DYOUTH is a streetwear clothing brand inspired to lead people to follow their dreams no matter 
                                                         what.(our main concept) - the concept that all human beings were born with hopes and dreams until society told 
                                                         us it was unrealistic and to grow up. The brand was founded by Ariel salazar, Jose Peraza, and Xavier Marricco-Holmes 

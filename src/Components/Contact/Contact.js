@@ -144,11 +144,24 @@ export default class Contact extends React.Component {
                         <Jumbotron fluid className="contact-jumbotron">
                                 <Container fluid>
                                         <Row>
+                                                <Col xs ={12}sm={12} md={6}>
+                                                        <h1 className="contact-h1">Contact Us</h1>
+                                                        <p className="contact-p">Email us or message us directly on instagram for product information.</p>
+                                                        <p className="contact-p">DE∀DYOUTH Brand</p>
+                                                        <p className="contact-p">deadyouthbrand@gmail.com</p>
+                                                        <a href="https://www.instagram.com/deadyouthbrand/" target="_blank">
+                                                                <img 
+                                                                        src="https://sguru.org/wp-content/uploads/2018/01/instagram-icon.png" 
+                                                                        className="contact-ig-logo" 
+                                                                        alt="contact-ig-logo"
+                                                                />
+                                                        </a>
+                                                </Col>
                                                 <Col>
                                                         <Form className="contact-container">
                                                                 <FormGroup row>
                                                                         <Col sm={6}>
-                                                                                <Label for="user_first" sm={6}>First Name</Label>
+                                                                                <Label for="user_first"  xs={12} sm={6}>First Name</Label>
                                                                                 <Input 
                                                                                         invalid={this.state.user_first_class} 
                                                                                         type="name" 
@@ -161,7 +174,7 @@ export default class Contact extends React.Component {
                                                                                 <FormFeedback invalid="true">Please enter full first name.</FormFeedback>
                                                                         </Col>
                                                                         <Col sm={6}>
-                                                                                <Label for="user_last" sm={6}>Last Name</Label>
+                                                                                <Label for="user_last" xs={12} sm={6}>Last Name</Label>
                                                                                 <Input 
                                                                                         invalid={this.state.user_last_class}
                                                                                         type="name" 
@@ -238,19 +251,6 @@ export default class Contact extends React.Component {
                                                                         </Col>
                                                                 </FormGroup>
                                                         </Form>
-                                                </Col>
-                                                <Col>
-                                                        <h1 className="contact-h1">Contact Us</h1>
-                                                        <p className="contact-p">Email us or message us directly on instagram for product information.</p>
-                                                        <p className="contact-p">DE∀DYOUTH Brand</p>
-                                                        <p className="contact-p">deadyouthbrand@gmail.com</p>
-                                                        <a href="https://www.instagram.com/deadyouthbrand/" target="_blank">
-                                                                <img 
-                                                                        src="https://sguru.org/wp-content/uploads/2018/01/instagram-icon.png" 
-                                                                        className="contact-ig-logo" 
-                                                                        alt="contact-ig-logo"
-                                                                />
-                                                        </a>
                                                 </Col>
                                         </Row>
                                 </Container>
