@@ -14,7 +14,6 @@ function ParallaxImage(props) {
                                 'margin': 'auto'
                         }}
                 >
-                <p className="parallax-text">(YOU)r hopes and dreams get closer with every step. Keep Moving.</p>
                 </div>
         )
 }

@@ -4,9 +4,10 @@ import Header from './Components/Header/Header';
 import About from './Components/About/About';
 import Gallery from './Components/Gallery/Gallery';
 import ParallaxImage from './Components/ParallaxImage/ParallaxImage';
+import Contact from './Components/Contact/Contact';
 
 // importing logo picture for parallax component
-import shoesPic from './Images/shoes.jpg';
+import parallaxImg from './Images/parallaxImg.png';
 
 
 class App extends Component {
@@ -16,7 +17,8 @@ class App extends Component {
 				<Header />
 				<About />
 				<Gallery />
-				<ParallaxImage imageUrl={shoesPic} />
+				<ParallaxImage imageUrl={parallaxImg} />
+				<Contact />
 			</div>
 		);
 	}

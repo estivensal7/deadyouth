@@ -1,0 +1,37 @@
+.contact-container {
+        padding-top: 30px;
+        max-width: 90%;
+        height: 550px;
+        color: black;
+        margin-bottom: 0px !important;
+        margin: auto;
+}
+
+.input {
+        -moz-box-shadow: 0 0 10px #000000;
+        -webkit-box-shadow: 0 0 10px #000000;
+        box-shadow: 0 0 10px #000000;
+        color: #000000 !important;
+}
+
+.contact-jumbotron {
+        margin-bottom: 0px !important;
+        padding-bottom: 100px !important;
+        background-color: white;
+}
+
+.contact-h1 {
+        color: black;
+        font-size: 65px;
+}
+
+.contact-p {
+        color: black;
+        font-size: 22px;
+}
+
+.contact-ig-logo {
+        height: 40px;
+        width: 40px;
+        text-shadow: 2px 2px 4px #000000;
+}

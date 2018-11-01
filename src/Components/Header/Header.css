@@ -1,6 +1,7 @@
 .Header {
   height: 800px;
   width: 100%;
+  background-color: #222;
 }
 
 p {
@@ -53,27 +54,269 @@ p {
   p span + span {
           margin-left: 0.3em;
   }
-@media (min-width: 20em) {
-          p {
-                  font-size: 2em;
-          }
-                  p span::before,
-                  p span::after {
-                  display: block;
-          }
+
+  @media (max-width: 319px) {
+        p {
+                font-size: 28px;
+        }
+                p span::before,
+                p span::after {
+                display: block;
+        }
+
+        .Header {
+                height: 230px;
+        }
 }
-@media (min-width: 30em) {
-          p {
-                  font-size: 3em;
-          }
+
+@media (min-width: 320px) and (max-width: 400px) {
+        p {
+                font-size: 28px;
+        }
+                p span::before,
+                p span::after {
+                display: block;
+        }
+
+        .Header {
+                height: 240px;
+        }
 }
-@media (min-width: 40em) {
-          p {
-                  font-size: 3em;
-          }
+
+@media (min-width: 401px) and (max-width: 480px) {
+        p {
+                font-size: 28px;
+        }
+                p span::before,
+                p span::after {
+                display: block;
+        }
+
+        .Header {
+                height: 300px;
+        }
 }
-@media (min-width: 60em) {
-          p {
-                  font-size: 5em;
-          }
+
+@media (min-width: 481px) and (max-width: 510px) {
+        p {
+                font-size: 40px;
+        }
+                p span::before,
+                p span::after {
+                display: block;
+        }
+
+        .Header {
+                height: 310px;
+        }
+}
+
+@media (min-width: 511px) and (max-width: 590px) {
+        p {
+                font-size: 40px;
+        }
+                p span::before,
+                p span::after {
+                display: block;
+        }
+
+        .Header {
+                height: 350px;
+        }
+}
+
+@media (min-width: 591px) and (max-width: 6400px) {
+        p {
+                font-size: 40px;
+        }
+                p span::before,
+                p span::after {
+                display: block;
+        }
+
+        .Header {
+                height: 380px;
+        }
+}
+
+@media (min-width: 641px) and (max-width: 680px) {
+        p {
+                font-size: 48px;
+        }
+                p span::before,
+                p span::after {
+                display: block;
+        }
+
+        .Header {
+                height: 400px;
+        }
+}
+
+@media (min-width: 681px) and (max-width: 740px) {
+        p {
+                font-size: 48px;
+        }
+                p span::before,
+                p span::after {
+                display: block;
+        }
+
+        .Header {
+                height: 430px;
+        }
+}
+
+@media (min-width: 741px) and (max-width: 840px) {
+        p {
+                font-size: 48px;
+        }
+                p span::before,
+                p span::after {
+                display: block;
+        }
+
+        .Header {
+                height: 480px;
+        }
+}
+
+@media (min-width: 841px) and (max-width: 940px) {
+        p {
+                font-size: 55px;
+        }
+                p span::before,
+                p span::after {
+                display: block;
+        }
+
+        .Header {
+                height: 520px;
+        }
+}
+
+@media (min-width: 941px) and (max-width: 1030px) {
+        p {
+                font-size: 80px;
+        }
+                p span::before,
+                p span::after {
+                display: block;
+        }
+
+        .Header {
+                height: 610px;
+        }
+}
+
+@media (min-width: 1031px) and (max-width: 1160px) {
+        p {
+                font-size: 80px;
+        }
+                p span::before,
+                p span::after {
+                display: block;
+        }
+
+        .Header {
+                height: 670px;
+        }
+}
+
+@media (min-width: 1161px) and (max-width: 1250px) {
+        p {
+                font-size: 80px;
+        }
+                p span::before,
+                p span::after {
+                display: block;
+        }
+
+        .Header {
+                height: 710px;
+        }
+}
+
+@media (min-width: 1251px) and (max-width: 1340px) {
+        p {
+                font-size: 80px;
+        }
+                p span::before,
+                p span::after {
+                display: block;
+        }
+
+        .Header {
+                height: 750px;
+        }
+}
+
+@media (min-width: 1341px) and (max-width: 1490px) {
+        p {
+                font-size: 80px;
+        }
+                p span::before,
+                p span::after {
+                display: block;
+        }
+
+        .Header {
+                height: 820px;
+        }
+}
+
+@media (min-width: 1491px) and (max-width: 1650px) {
+        p {
+                font-size: 80px;
+        }
+                p span::before,
+                p span::after {
+                display: block;
+        }
+
+        .Header {
+                height: 900px;
+        }
+}
+
+@media (min-width: 1651px) and (max-width: 1880px) {
+        p {
+                font-size: 80px;
+        }
+                p span::before,
+                p span::after {
+                display: block;
+        }
+
+        .Header {
+                height: 1000px;
+        }
+}
+
+@media (min-width: 1881px) and (max-width: 2000px) {
+        p {
+                font-size: 80px;
+        }
+                p span::before,
+                p span::after {
+                display: block;
+        }
+
+        .Header {
+                height: 1060px;
+        }
+}
+
+@media (min-width: 2001px) {
+        p {
+                font-size: 80px;
+        }
+                p span::before,
+                p span::after {
+                display: block;
+        }
+
+        .Header {
+                height: 1180px;
+        }
 }
